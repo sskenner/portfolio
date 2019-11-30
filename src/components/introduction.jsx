@@ -28,17 +28,20 @@ export default class Introduction extends Component {
                             code
                             <br /> caster,
                           </h1>
-                          {/* <h1 style={hStyle}>First name's SANTANA ...</h1> */}
+                          {/* <h1 style={hStyle}>
+                            I love solving
+                            <br /> PROBLEMS ...
+                          </h1> */}
                           <p>
                             <a
                               className="btn btn-primary"
                               style={hStyle}
-                              href="https://drive.google.com/file/d/1pkMjCFwP7RZEyVyjru4cpPAEI_2Uzhhq/view?usp=sharing"
+                              href="https://github.com/sskenner"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View CV
-                              <i className="icon-download4" />
+                              {/* GH or projects */}
+                              View GitHub <i className="icon-github" />
                             </a>
                           </p>
                         </div>
@@ -58,20 +61,17 @@ export default class Introduction extends Component {
                             problems
                             <br /> solver,
                           </h1>
-                          {/* <h1 style={hStyle}>
-                            I love solving
-                            <br /> PROBLEMS ...
-                          </h1> */}
+                          {/* <h1 style={hStyle}>First name's SANTANA ...</h1> */}
                           <p>
                             <a
                               className="btn btn-primary"
                               style={hStyle}
-                              href="https://github.com/sskenner"
+                              href="https://drive.google.com/file/d/1pkMjCFwP7RZEyVyjru4cpPAEI_2Uzhhq/view?usp=sharing"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              {/* GH or projects */}
-                              View GitHub <i className="icon-github" />
+                              View CV
+                              <i className="icon-download4" />
                             </a>
                           </p>
                         </div>
