@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const hStyle = { color: "#e4000f" };
+const hStyle = { color: "#ffffff" };
 
 export default class Introduction extends Component {
   render() {
@@ -27,7 +27,7 @@ export default class Introduction extends Component {
                           </h1>
                           <p>
                             <a
-                              className="btn btn-primary btn-learn"
+                              className="btn btn-primary"
                               href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing"
                               target="_blank"
                               rel="noopener noreferrer"
@@ -55,7 +55,7 @@ export default class Introduction extends Component {
                           </h1>
                           <p>
                             <a
-                              className="btn btn-primary btn-learn"
+                              className="btn btn-primary"
                               href="https://github.com/Dhruv34788"
                               target="_blank"
                               rel="noopener noreferrer"
@@ -82,7 +82,7 @@ export default class Introduction extends Component {
                           </h1>
                           <p>
                             <a
-                              className="btn btn-primary btn-learn"
+                              className="btn btn-primary"
                               href="https://medium.com/@dhruv.barochia34788"
                               target="_blank"
                               rel="noopener noreferrer"
