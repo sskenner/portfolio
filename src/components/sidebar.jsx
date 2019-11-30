@@ -29,21 +29,26 @@ export default class Sidebar extends Component {
                 <a href="mailto:sskenner@gmail.com">sskenner@gmail.com</a>
               </span>
             </div>
+            <br />
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active">
                     <a href="#home" data-nav-section="home">
-                      Intro
+                      IntroDeez
                     </a>
                   </li>
                   <li>
                     <a href="#about" data-nav-section="about">
-                      About
+                      About Moi
                     </a>
                   </li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
+                  <li>
+                    <a href="#" data-nav-section="projects">
+                      Projects
+                    </a>
+                  </li>
+                  {/* <li><a href="#" data-nav-section="blog">Blog</a></li> */}
                   <li>
                     <a href="#timeline" data-nav-section="timeline">
                       Timeline

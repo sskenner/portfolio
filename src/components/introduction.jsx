@@ -24,7 +24,11 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           {/* <h1> */}
-                          <h1 style={hStyle}>First name's SANTANA ...</h1>
+                          <h1 style={hStyle}>
+                            code
+                            <br /> caster,
+                          </h1>
+                          {/* <h1 style={hStyle}>First name's SANTANA ...</h1> */}
                           <p>
                             <a
                               className="btn btn-primary"
@@ -51,9 +55,13 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1 style={hStyle}>
+                            problems
+                            <br /> solver,
+                          </h1>
+                          {/* <h1 style={hStyle}>
                             I love solving
                             <br /> PROBLEMS ...
-                          </h1>
+                          </h1> */}
                           <p>
                             <a
                               className="btn btn-primary"
@@ -63,7 +71,7 @@ export default class Introduction extends Component {
                               rel="noopener noreferrer"
                             >
                               {/* GH or projects */}
-                              View GitHub <i className="icon-briefcase3" />
+                              View GitHub <i className="icon-github" />
                             </a>
                           </p>
                         </div>
@@ -79,7 +87,11 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1 style={hStyle}>GOOGLE gave us 250k USD !! </h1>
+                          <h1 style={hStyle}>
+                            GOOGLE
+                            <br /> check-casher.
+                          </h1>
+                          {/* <h1 style={hStyle}>GOOGLE gave us 250k USD !! </h1> */}
                           <p>
                             <a
                               className="btn btn-primary"
@@ -99,7 +111,7 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View Video <i className="icon-book" />
+                              View Video <i className="icon-video" />
                             </a>
                           </p>
                           <p>
@@ -110,7 +122,7 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View Photos <i className="icon-book" />
+                              View Photos <i className="icon-camera" />
                             </a>
                           </p>
                         </div>
