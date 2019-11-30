@@ -24,10 +24,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           {/* <h1> */}
-                          <h1 style={hStyle}>
-                            Sup! <br />
-                            I'm Santana
-                          </h1>
+                          <h1 style={hStyle}>First name's SANTANA ...</h1>
                           <p>
                             <a
                               className="btn btn-primary"
@@ -55,7 +52,7 @@ export default class Introduction extends Component {
                         <div className="desc">
                           <h1 style={hStyle}>
                             I love solving
-                            <br /> PROBLEMS !!
+                            <br /> PROBLEMS ...
                           </h1>
                           <p>
                             <a
@@ -82,9 +79,7 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1 style={hStyle}>
-                            I got GOOGLE $$ for my TechEd Nonprofit...{" "}
-                          </h1>
+                          <h1 style={hStyle}>GOOGLE gave us 250k USD !! </h1>
                           <p>
                             <a
                               className="btn btn-primary"
@@ -94,6 +89,17 @@ export default class Introduction extends Component {
                               rel="noopener noreferrer"
                             >
                               View Story <i className="icon-book" />
+                            </a>
+                          </p>
+                          <p>
+                            <a
+                              className="btn btn-primary"
+                              style={hStyle}
+                              href="https://www.youtube.com/watch?v=OtMtwXS0I20&feature=youtu.be"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              View Video <i className="icon-book" />
                             </a>
                           </p>
                           <p>
