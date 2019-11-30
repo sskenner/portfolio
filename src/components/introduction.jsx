@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
-const hStyle = { color: "#ffffff" };
+const hStyle = {
+  color: "#ffffff",
+  fontWeight: "bold"
+};
 
 export default class Introduction extends Component {
   render() {
@@ -28,7 +31,8 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className="btn btn-primary"
-                              href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing"
+                              style={hStyle}
+                              href="https://drive.google.com/file/d/1pkMjCFwP7RZEyVyjru4cpPAEI_2Uzhhq/view?usp=sharing"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -56,11 +60,13 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className="btn btn-primary"
-                              href="https://github.com/Dhruv34788"
+                              style={hStyle}
+                              href="https://github.com/sskenner"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View Projects <i className="icon-briefcase3" />
+                              {/* GH or projects */}
+                              View GitHub <i className="icon-briefcase3" />
                             </a>
                           </p>
                         </div>
@@ -77,17 +83,28 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1 style={hStyle}>
-                            I've <br />
-                            CREATED ...{" "}
+                            I got GOOGLE $$ for my TechEd Nonprofit...{" "}
                           </h1>
                           <p>
                             <a
                               className="btn btn-primary"
-                              href="https://medium.com/@dhruv.barochia34788"
+                              style={hStyle}
+                              href="https://mashable.com/2010/11/30/google-igotittoo/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View Blog <i className="icon-book" />
+                              View Story <i className="icon-book" />
+                            </a>
+                          </p>
+                          <p>
+                            <a
+                              className="btn btn-primary"
+                              style={hStyle}
+                              href="https://www.facebook.com/pg/igotittoo/photos/?ref=page_internal"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              View Photos <i className="icon-book" />
                             </a>
                           </p>
                         </div>
