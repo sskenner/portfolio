@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+const hStyle = { color: "#e4000f" };
+
 export default class Introduction extends Component {
   render() {
     return (
@@ -18,9 +20,10 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>
-                            Hi! <br />
-                            I'm Dhruv
+                          {/* <h1> */}
+                          <h1 style={hStyle}>
+                            Sup! <br />
+                            I'm Santana
                           </h1>
                           <p>
                             <a
@@ -39,16 +42,16 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{ backgroundImage: "url(images/ig2origsquad.jpg)" }}>
+              <li style={{ backgroundImage: "url(images/skshowtech.jpg)" }}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>
-                            I love building
-                            <br /> THINGS !!
+                          <h1 style={hStyle}>
+                            I love solving
+                            <br /> PROBLEMS !!
                           </h1>
                           <p>
                             <a
@@ -66,16 +69,16 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{ backgroundImage: "url(images/ig2sitng.jpg)" }}>
+              <li style={{ backgroundImage: "url(images/skshowtech.jpg)" }}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>
-                            I often <br />
-                            Write ...{" "}
+                          <h1 style={hStyle}>
+                            I've <br />
+                            CREATED ...{" "}
                           </h1>
                           <p>
                             <a
