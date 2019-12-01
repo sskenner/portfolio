@@ -40,7 +40,7 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/seliniumAuto.jpeg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html"><strong>tech+</strong> - Automated user verification and incident requests</a></h3>
+											<h3><a href="work.html"><strong>tech+</strong> - Automated user verification and incident requests tool</a></h3>
 											<span>tech+ automates the user verification and incident request workflow for systems analysts. Written using <strong>Selenium</strong>, <strong>Python</strong> and <strong>Flask</strong>.
 											<br /><strong>NOTE:</strong> Private GitHub repo shared upon request.</span>
 											<p className="icon">
