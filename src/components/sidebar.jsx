@@ -54,16 +54,6 @@ export default class Sidebar extends Component {
                       Timeline
                     </a>
                   </li>
-                  <br />
-                  <li>
-                    <a
-                      href="https://drive.google.com/file/d/1pkMjCFwP7RZEyVyjru4cpPAEI_2Uzhhq/view?usp=sharing"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View CV <i className="icon-download4" />
-                    </a>
-                  </li>
                 </ul>
               </div>
             </nav>
@@ -108,6 +98,13 @@ export default class Sidebar extends Component {
               </ul>
             </nav>
             <div className="colorlib-footer">
+              <a
+                href="https://drive.google.com/file/d/1pkMjCFwP7RZEyVyjru4cpPAEI_2Uzhhq/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View CV <i className="icon-download4" />
+              </a>
               <p>
                 <small>
                   Made with <i className="icon-heart" aria-hidden="true" />,{" "}
