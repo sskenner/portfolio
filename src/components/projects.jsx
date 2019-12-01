@@ -21,6 +21,7 @@ export default class Projects extends Component {
 											<span>
 												<p><strong>Rockstar</strong> is a collection of tests written for the Applitools Rockstar hackathon using <strong>WebdriverIO 4 Node.js</strong> test framework and <strong>Applitools Visual AI SDK</strong>.
 												<br /><strong>NOTE:</strong> Private GitHub repo shared upon request.</span></p>
+												{/* gh-pages test */}
 											</span>
 											<p className="icon">
 												<span>
