@@ -26,23 +26,31 @@ export default class Timeline extends Component {
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
+                        <i className="icon-unlock" />
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Internship at Juniper <span>2019-present</span>
+                          Visual AI Rockstar Hackathon <span>11/2019</span>
                         </h2>
                         <p>
-                          I recently have joined the Juniper Networs as a
-                          Software Developer-Intern in the DevOps team. My major
-                          part of the work has been into the field of creating
-                          sustainable and flexible CI/CD (Continuous Integration
-                          & Continuous Development) pipelines which enables
-                          developers at Juniper to do rapid development. I am
-                          also exploring the role of container technology like
-                          Docker and container-orchrastation technologies like
-                          K8s, Swarm to create industry standard production
-                          environments.
+                          • Participated in Applitools software testing
+                          hackathon
+                          <br />• Created a collection of tests using{" "}
+                          <strong>WebdriverIO 4 Node.js</strong> test framework
+                          and <strong>Applitools Visual AI SDK</strong>.
+                        </p>
+                        <p className="icon">
+                          <span>
+                            <a
+                              href="https://github.com/sskenner/rockstar"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className="icon-github" />
+                            </a>
+                          </span>
+                          {/* <span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span> */}
                         </p>
                       </div>
                     </div>
@@ -53,20 +61,19 @@ export default class Timeline extends Component {
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
+                        <i className="icon-book" />
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Undergraduation at DAIICT<span>2015-2019</span>
+                          Graduation at Queensborough Community College{" "}
+                          <span>09/2019-12/2019</span>
                         </h2>
                         <p>
-                          I am pursuing my under-graduation studies with major
-                          in I.C.T.(Information & Communication Technology). I
-                          have taken courses like DSA, OOPs, Computer Networks,
-                          IOT, Web-Data Management over the years and have
-                          better understanding of these subjects.I have also
-                          been part of S.B.G.(Student Body Govenance) scince my
-                          first year of college.
+                          • Graduated the Queensborough Community College CUNY
+                          TechWorks software development continuing education
+                          program
+                          <br />• Learning included competencies for webclient
+                          programming, systems design and implementation
                         </p>
                       </div>
                     </div>
@@ -77,20 +84,96 @@ export default class Timeline extends Component {
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
+                        <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Primary and Higher Education <span>2003-2015</span>
+                          Systems Analyst at NYC Health + Hospitals{" "}
+                          <span>01/2016-present</span>
                         </h2>
                         <p>
-                          I have completed my higher secondary education with
-                          major subjects as Physics,Chemistry & Maths with 91
-                          merit. During my time at school, I have developed
-                          interest in solving complex problems of the
-                          fundamental physics which helped me to improve my
-                          understanding of any problem and also my mathematical
-                          skills to actually solve the problems.
+                          • Design and build automated user verification support
+                          ticket creation app decreasing click-through by half
+                          <br />• Develop and administer departmental
+                          Knowledgebase wiki
+                          <br />• Provide helpdesk/technical support for 35k
+                          healthcare users and 4M broadband subscribers
+                          <br />• Forecasted and reported call volume metrics
+                          for staffing
+                        </p>
+                        <p className="icon">
+                          <span>
+                            <a
+                              href="https://drive.google.com/file/d/1FckGb9PbdUcayD-LQAvqC80NMCJYF0L3/view?usp=sharing"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className="icon-video" />
+                            </a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-briefcase" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Co-founder at iGotITtoo.org{" "}
+                          <span>06/2009-present</span>
+                        </h2>
+                        <p>
+                          •{" "}
+                          <a
+                            href="https://mashable.com/2010/11/30/google-igotittoo/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Secured $250k+ Google grant(s)
+                          </a>{" "}
+                          to scale{" "}
+                          <a
+                            href="https://www.facebook.com/pg/igotittoo/photos/?ref=page_internal"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            TechEd services
+                          </a>{" "}
+                          for under-served communities
+                          <br />• Manage technical teams of specialists and
+                          volunteers that support personal, for- and non-profit
+                          clients
+                        </p>
+                        <p className="icon">
+                          <span>
+                            <a
+                              href="https://mashable.com/2010/11/30/google-igotittoo/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className="icon-book" />
+                            </a>{" "}
+                            <a
+                              href="https://www.youtube.com/watch?v=OtMtwXS0I20&feature=youtu.be"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className="icon-video" />
+                            </a>{" "}
+                            <a
+                              href="https://www.facebook.com/pg/igotittoo/photos/?ref=page_internal"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className="icon-camera" />
+                            </a>
+                          </span>
                         </p>
                       </div>
                     </div>

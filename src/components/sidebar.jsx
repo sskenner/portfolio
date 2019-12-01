@@ -25,8 +25,8 @@ export default class Sidebar extends Component {
                 <a href="index.html">santana kenner</a>
               </h1>
               <span className="email">
+                <a href="mailto:sskenner@gmail.com">sskenner@gmail.com</a>{" "}
                 <i className="icon-mail"></i>
-                <a href="mailto:sskenner@gmail.com">sskenner@gmail.com</a>
               </span>
             </div>
             <br />
@@ -52,6 +52,16 @@ export default class Sidebar extends Component {
                   <li>
                     <a href="#timeline" data-nav-section="timeline">
                       Timeline
+                    </a>
+                  </li>
+                  <br />
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1pkMjCFwP7RZEyVyjru4cpPAEI_2Uzhhq/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View CV <i className="icon-download4" />
                     </a>
                   </li>
                 </ul>

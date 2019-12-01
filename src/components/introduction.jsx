@@ -70,8 +70,7 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View CV
-                              <i className="icon-download4" />
+                              View CV <i className="icon-download4" />
                             </a>
                           </p>
                         </div>
