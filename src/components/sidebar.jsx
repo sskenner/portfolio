@@ -100,8 +100,8 @@ export default class Sidebar extends Component {
             <div className="colorlib-footer">
               <p>
                 <small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and{" "}
-                  <i className="icon-coffee" aria-hidden="true"></i>
+                  Made with <i className="icon-heart" aria-hidden="true" />,{" "}
+                  <i className="icon-coffee" aria-hidden="true"></i> and React.
                   {/* <br></br>
                   Bigup{" "}
                   <a
