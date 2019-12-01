@@ -14,7 +14,7 @@ export default class About extends Component {
                 >
                   <div className="col-md-12">
                     <div className="about-desc">
-                      {/* <span className="heading-meta">About Moi</span> */}
+                      <span className="heading-meta">About Moi</span>
                       <h2 className="colorlib-heading">Who I is</h2>
                       <p>
                         I am a graduate of the Queensborough Community College

@@ -11,7 +11,7 @@ export default class Timeline extends Component {
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                {/* <span className="heading-meta">highlights</span> */}
+                <span className="heading-meta">Timeline</span>
                 <h2 className="colorlib-heading animate-box">
                   When I done did it
                 </h2>
