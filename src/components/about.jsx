@@ -32,8 +32,8 @@ export default class About extends Component {
                       </p>
                       <p>
                         I love the combination of creative and logical
-                        problem-solving skills I get to use when programming. A
-                        highly motivated and focused self-starter who learns
+                        problem-solving skills I get to use when programming. As
+                        a highly motivated and focused self-starter who learns
                         fast and executes faster, I will put forth my best
                         effort to be a valuable contributor to virtually any
                         team.{" "}

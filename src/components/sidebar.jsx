@@ -79,7 +79,7 @@ export default class Sidebar extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/355ka3"
+                    href="https://twitter.com/sskenner"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
