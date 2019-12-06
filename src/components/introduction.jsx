@@ -66,7 +66,7 @@ export default class Introduction extends Component {
                             <a
                               className="btn btn-primary"
                               style={hStyle}
-                              href="https://drive.google.com/open?id=1UoSDU3CHueJPyNMm--ZM4Xq5NlTPkQHk"
+                              href="https://drive.google.com/open?id=1IFoH_BadCtX3iehq0XWOcaE765FBait2"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
