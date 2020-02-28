@@ -35,7 +35,7 @@ export default class Sidebar extends Component {
                 <ul>
                   <li className="active">
                     <a href="#home" data-nav-section="home">
-                      IntroDeez
+                      Introduction
                     </a>
                   </li>
                   <li>

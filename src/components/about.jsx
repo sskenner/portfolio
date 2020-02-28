@@ -15,7 +15,7 @@ export default class About extends Component {
                   <div className="col-md-12">
                     <div className="about-desc">
                       <span className="heading-meta">About Moi</span>
-                      <h2 className="colorlib-heading">Who I is</h2>
+                      <h2 className="colorlib-heading">Who I am</h2>
                       <p>
                         I am a graduate of the Queensborough Community College
                         (QCC) CUNY TechWorks software development continuing
@@ -53,7 +53,7 @@ export default class About extends Component {
                 data-animate-effect="fadeInLeft"
               >
                 {/* <span className="heading-meta">What I do?</span> */}
-                <h2 className="colorlib-heading">What I does</h2>
+                <h2 className="colorlib-heading">What I do</h2>
               </div>
             </div>
             <div className="row row-pt-md">

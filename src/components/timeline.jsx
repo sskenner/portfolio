@@ -12,9 +12,7 @@ export default class Timeline extends Component {
                 data-animate-effect="fadeInLeft"
               >
                 <span className="heading-meta">Timeline</span>
-                <h2 className="colorlib-heading animate-box">
-                  When I done did it
-                </h2>
+                <h2 className="colorlib-heading animate-box">When I did it</h2>
               </div>
             </div>
             <div className="row">
