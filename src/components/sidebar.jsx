@@ -19,7 +19,7 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div
                 className="author-img"
-                style={{ backgroundImage: "url(images/IMG_0016serious.JPG)" }}
+                style={{ backgroundImage: "url(images/FinalB%26Wzoom.png)" }}
               />
               <h1 id="colorlib-logo">
                 <a href="index.html">santana kenner</a>

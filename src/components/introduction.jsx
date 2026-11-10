@@ -118,6 +118,17 @@ export default class Introduction extends Component {
                             GOOGLE
                             <br /> check-casher.
                           </h1>
+                          <p>
+                            <a
+                              className="btn btn-primary"
+                              style={hStyle}
+                              href="https://mashable.com/archive/google-igotittoo"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              View Story <i className="icon-book" />
+                            </a>
+                          </p>
                           
                         </div>
                       </div>
