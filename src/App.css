@@ -203,11 +203,12 @@ button { font: inherit; color: inherit; }
 /* stats strip */
 .stats {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
   border-top: 1px solid var(--line);
   padding-top: clamp(10px, 1.8vh, 18px);
 }
-.stat { display: flex; align-items: baseline; gap: 10px; justify-content: center; }
+.stat { display: flex; align-items: baseline; gap: 8px; justify-content: center; white-space: nowrap; }
 .stat-n { font-family: var(--mono); font-weight: 800; font-size: clamp(16px, 2.6vh, 24px); color: var(--green); }
 .stat-l { color: var(--muted); font-size: 13px; }
 

@@ -115,10 +115,10 @@ const EXPERIENCE = [
     when: "2025 – present",
     points: [
       "Real-time NICE CXone queue alerts that post each waiting call to Webex by webhook, with failsafe branching so a Webex outage can't drop a call.",
-      "Python and Selenium bots that watch live call-center and ServiceNow Virtual Agent queues and alert Webex when limits are crossed.",
-      "Daily ServiceNow and VCC data pipelines feeding the analytics team's Snowflake data stores; one cut a 10–13 minute manual export to 90 seconds.",
-      "SLA alerts in Python and pandas that warn staff before ServiceNow tasks come due, flagging each task only once.",
-      "A morning check that confirms every report file arrived and escalates to \"action required\" when one is missing.",
+      "Python and Selenium bots that watch live call-center and ServiceNow Virtual Agent queues and alert Webex, helping cut wait times and abandoned calls.",
+      "Daily ServiceNow and VCC data pipelines feeding the analytics team's Snowflake data stores, replacing 45–60 minutes of manual work a day; one export went from 10–13 minutes to 90 seconds.",
+      "SLA alerts in Python and pandas that warn staff before ServiceNow tasks come due, bringing missed SLAs and late communications to zero.",
+      "A morning check that confirms every report file arrived and escalates when one is missing; it has caught every missing file before anyone noticed.",
     ],
   },
   {
@@ -127,8 +127,8 @@ const EXPERIENCE = [
     when: "2016 – 2025",
     points: [
       "Supported 45,000+ employees and learned where workflows break by working directly with the people using them.",
-      "Built a Power Automate Desktop flow that produced the daily abandoned-call report.",
-      "Automated Excel reports that ran several times a day: calculations, merging, renaming and exporting.",
+      "Built a Power Automate Desktop flow that produces the daily abandoned-call report, saving 45–60 minutes of manual work every day.",
+      "Automated Excel reports that run several times a day, saving 20–30 minutes a day.",
       "Built a user verification and ticket app that cut support ticket click-through in half.",
     ],
   },
@@ -154,7 +154,9 @@ const SKILLS = [
 ];
 
 const STATS = [
-  ["90 sec", "report export, down from 10–13 min"],
+  ["600+ hrs", "saved a year, 24/7"],
+  ["0", "missed SLAs"],
+  ["90 sec", "report export, was 13 min"],
   ["$250K+", "in Google grants"],
 ];
 
