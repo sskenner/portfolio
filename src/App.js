@@ -155,8 +155,8 @@ const SKILLS = [
 
 const STATS = [
   ["600+ hrs", "saved a year, 24/7"],
+  ["$30K+", "staff time saved a year"],
   ["0", "missed SLAs"],
-  ["90 sec", "report export, was 13 min"],
   ["$250K+", "in Google grants"],
 ];
 
