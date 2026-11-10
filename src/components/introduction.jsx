@@ -118,29 +118,7 @@ export default class Introduction extends Component {
                             GOOGLE
                             <br /> check-casher.
                           </h1>
-                          {/* <h1 style={hStyle}>GOOGLE gave us 250k USD !! </h1> */}
-                          <p>
-                            <a
-                              className="btn btn-primary"
-                              style={hStyle}
-                              href="https://mashable.com/2010/11/30/google-igotittoo/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              View Story <i className="icon-book" />
-                            </a>
-                          </p>
-                          <p>
-                            <a
-                              className="btn btn-primary"
-                              style={hStyle}
-                              href="https://www.youtube.com/watch?v=OtMtwXS0I20&feature=youtu.be"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              View Video <i className="icon-video" />
-                            </a>
-                          </p>
+                          
                         </div>
                       </div>
                     </div>

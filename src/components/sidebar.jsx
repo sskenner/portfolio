@@ -25,7 +25,7 @@ export default class Sidebar extends Component {
                 <a href="index.html">santana kenner</a>
               </h1>
               <span className="email">
-                <a href="mailto:sskenner@gmail.com">sskenner@gmail.com</a>{" "}
+                <a href="mailto:santana@igotittoo.org">santana@igotittoo.org</a>{" "}
                 <i className="icon-mail"></i>
               </span>
             </div>

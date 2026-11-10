@@ -170,37 +170,13 @@ export default class Timeline extends Component {
                         </h2>
                         <p>
                           •{" "}
-                          <a
-                            href="https://mashable.com/2010/11/30/google-igotittoo/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Secured $250k+ Google grant(s)
-                          </a>{" "}
+                          Secured $250k+ Google grant(s){" "}
                           to scale{" "}
                           TechEd services{" "}
                           for under-served communities
                           <br />• Manage technical teams of specialists and
                           volunteers that support personal, for- and non-profit
                           clients
-                        </p>
-                        <p className="icon">
-                          <span>
-                            <a
-                              href="https://mashable.com/2010/11/30/google-igotittoo/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <i className="icon-book" />
-                            </a>{" "}
-                            <a
-                              href="https://www.youtube.com/watch?v=OtMtwXS0I20&feature=youtu.be"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <i className="icon-video" />
-                            </a>
-                          </span>
                         </p>
                       </div>
                     </div>
