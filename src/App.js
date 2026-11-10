@@ -275,7 +275,7 @@ export default function App() {
       <div className="grid-bg" aria-hidden="true" />
       <header className="topbar">
         <div className="brand">
-          SANTANA KENNER<span className="cursor">_</span>
+          santana kenner<span className="cursor">_</span>
         </div>
         <nav aria-label="Main">
           <button onClick={() => setPanel({ type: "experience" })}>Experience</button>
