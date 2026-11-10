@@ -216,7 +216,7 @@ export default class Projects extends Component {
                       <p className="icon">
                         <span>
                           <a
-                            href="https://drive.google.com/file/d/1FckGb9PbdUcayD-LQAvqC80NMCJYF0L3/view?usp=sharing"
+                            href="https://www.loom.com/share/0979f516528f468cb21eed791fcb2f49"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -335,6 +335,45 @@ export default class Projects extends Component {
 							<div className="col-md-12 animate-box">
 								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
 							</div> */}
+            </div>
+            <div className="row">
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/snreporttool.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://www.loom.com/share/db3b79f609a4496a925d5a46bcd852da" target="_blank" rel="noopener noreferrer">
+                          <strong>ServiceNow Report Tool</strong>
+                        </a>
+                      </h3>
+                      <span>
+                        Exports any saved ServiceNow report to CSV through the{" "}
+                        <strong>ServiceNow REST API</strong>. It reads each
+                        report's columns at run time, so layout changes don't
+                        break it, flattens nested fields, and pages through
+                        large reports with retries.
+                      </span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://www.loom.com/share/db3b79f609a4496a925d5a46bcd852da"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="icon-video" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

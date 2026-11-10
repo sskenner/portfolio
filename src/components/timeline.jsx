@@ -144,7 +144,7 @@ export default class Timeline extends Component {
                         <p className="icon">
                           <span>
                             <a
-                              href="https://drive.google.com/file/d/1FckGb9PbdUcayD-LQAvqC80NMCJYF0L3/view?usp=sharing"
+                              href="https://www.loom.com/share/0979f516528f468cb21eed791fcb2f49"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

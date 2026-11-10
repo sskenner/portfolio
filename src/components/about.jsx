@@ -33,8 +33,11 @@ export default class About extends Component {
                         Google grants for under-served communities.
                       </p>
                       <p>
-                        I start by watching what slows a team down, then build
-                        the smallest tool that removes it. I'm currently
+                        Before I automate anything, I ask to see the work done
+                        once, ideally as a screen recording. Then I sort out
+                        what can be automated reliably, what should stay
+                        manual, and where the risks are, and build the smallest
+                        tool that removes the slowdown. I'm currently
                         training in production agent engineering at{" "}
                         <a
                           href="https://manifold.school/"
@@ -87,8 +90,8 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Workflow Automation</h3>
                     <p>
-                      Python, Selenium, Power Automate, webhooks, REST APIs,
-                      ServiceNow, Jira, Webex, Microsoft 365
+                      Python, Selenium, RPA, ETL, Flask, Power Automate,
+                      webhooks, REST APIs, ServiceNow, Jira, Webex, Microsoft 365
                     </p>
                   </div>
                 </div>
