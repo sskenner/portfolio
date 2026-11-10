@@ -36,7 +36,10 @@ const PROJECTS = [
       "Files each held invoice as a Jira ticket for Purchasing, Logistics or Accounting, with no duplicates on re-runs.",
     ],
     stack: ["Python", "Claude API", "Pydantic", "Jira REST API", "Procore API"],
-    links: [{ label: "Watch demo", href: "https://www.loom.com/share/decf4c3356a6463d9bc3a10004f79ba3" }],
+    links: [
+      { label: "Watch demo", href: "https://www.loom.com/share/decf4c3356a6463d9bc3a10004f79ba3" },
+      { label: "Code", href: "https://github.com/sskenner/invoice-checker" },
+    ],
   },
   {
     id: "snreport",
