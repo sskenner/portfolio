@@ -147,7 +147,7 @@ const EXPERIENCE = [
 ];
 
 const SKILLS = [
-  ["AI and agents", "Claude API, Claude Code, Claude Duet, Gemini, prompt design, structured extraction from PDFs, output checks"],
+  ["AI and agents", "Claude API, Claude Code, Claude Duet, Google Gemini, Google Antigravity, prompt design, structured extraction from PDFs, output checks"],
   ["Automation", "Python, Selenium, RPA, ETL, Flask, Power Automate, webhooks, REST APIs, scheduled jobs"],
   ["Systems", "ServiceNow (incl. REST API), Jira, Procore, NICE CXone, Webex, Microsoft 365, SharePoint"],
   ["Data", "pandas, SQL, PostgreSQL, Excel automation, CSV and JSON pipelines, dashboards"],
