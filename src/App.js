@@ -288,7 +288,7 @@ export default function App() {
 
       <main className="main">
         <section className="hero">
-          <div className="photo" style={{ backgroundImage: `url(${PUB}/images/github_avatar.jpg)` }} role="img" aria-label="Santana Kenner" />
+          <div className="photo" style={{ backgroundImage: `url(${PUB}/images/headshot_neon.png)` }} role="img" aria-label="Santana Kenner" />
           <div className="hero-text">
             <p className="prompt">$ whoami</p>
             <h1>
