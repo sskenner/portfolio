@@ -154,7 +154,6 @@ const SKILLS = [
 ];
 
 const STATS = [
-  ["45,000+", "employees supported"],
   ["90 sec", "report export, down from 10–13 min"],
   ["$250K+", "in Google grants"],
 ];
@@ -295,10 +294,11 @@ export default function App() {
             <h1>
               AI agents <span className="accent">+</span> automation
               <br />
-              that run every day.
+              running <span className="accent">24/7</span>
+              <span className="cursor">_</span>
             </h1>
             <p className="sub">
-              Automation Engineer at NYC Health + Hospitals · Brooklyn, NY
+              Automation Engineer · New York, NY
             </p>
             <div className="socials">
               <a href="https://github.com/sskenner" target="_blank" rel="noopener noreferrer" aria-label="GitHub">

@@ -103,12 +103,13 @@ button { font: inherit; color: inherit; }
 }
 .photo {
   flex: none;
-  width: clamp(84px, 15vh, 148px);
-  height: clamp(84px, 15vh, 148px);
+  width: clamp(72px, 12vh, 118px);
+  height: clamp(72px, 12vh, 118px);
   border-radius: 50%;
-  background-size: cover;
-  background-position: center 30%;
-  border: 2px solid var(--green);
+  background-size: 135% auto;
+  background-position: 23% 33%;
+  background-repeat: no-repeat;
+  border: 1px solid var(--green);
   box-shadow: var(--glow), inset 0 0 0 4px var(--bg);
 }
 .hero-text { min-width: 0; }
@@ -202,7 +203,7 @@ button { font: inherit; color: inherit; }
 /* stats strip */
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   border-top: 1px solid var(--line);
   padding-top: clamp(10px, 1.8vh, 18px);
 }
