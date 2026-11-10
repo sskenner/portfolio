@@ -14,29 +14,36 @@ export default class About extends Component {
                 >
                   <div className="col-md-12">
                     <div className="about-desc">
-                      <span className="heading-meta">About Moi</span>
+                      <span className="heading-meta">About</span>
                       <h2 className="colorlib-heading">Who I am</h2>
                       <p>
-                        I am a graduate of the Queensborough Community College
-                        (QCC) CUNY TechWorks software development continuing
-                        education program. Learning included competencies for
-                        webclient programming, systems design and
-                        implementation.
+                        I build AI agents and plain, rule-based code that move
+                        information between the people doing the work, so
+                        every team sees the same truth in real time. AI reads
+                        the messy documents, emails, and PDFs, and rules make
+                        the decisions, so every result can be audited.
                       </p>
                       <p>
-                        I'm a systems analyst who found his true passion in
-                        programming. This is a direct result of co-founding a
-                        technology education nonprofit which helps under-served
-                        communities leverage technology resources to create
-                        education and economic opportunity.
+                        I'm an Automation Engineer on the Virtual Agent
+                        Services team at NYC Health + Hospitals, where I've
+                        supported 45,000+ employees. I build the alerts,
+                        pipelines, and reports that keep the service desk and
+                        contact center running. I also co-founded iGotITtoo.org,
+                        a tech education nonprofit that secured $250,000+ in
+                        Google grants for under-served communities.
                       </p>
                       <p>
-                        I love the combination of creative and logical
-                        problem-solving skills I get to use when programming. As
-                        a highly motivated and focused self-starter who learns
-                        fast and executes faster, I will put forth my best
-                        effort to be a valuable contributor to virtually any
-                        team.{" "}
+                        I start by watching what slows a team down, then build
+                        the smallest tool that removes it. I'm currently
+                        training in production agent engineering at{" "}
+                        <a
+                          href="https://manifold.school/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Manifold
+                        </a>
+                        .
                       </p>
                     </div>
                   </div>
@@ -63,10 +70,10 @@ export default class About extends Component {
                     <i className="icon-layers2" />
                   </span>
                   <div className="desc">
-                    <h3>Test Automation</h3>
+                    <h3>AI Agents</h3>
                     <p>
-                      Design and write test automation scripts with frameworks.
-                      Investigate problems as a result of testing
+                      Claude API agents that read PDFs, emails, and documents
+                      into structured data, with checks on every output
                     </p>
                   </div>
                 </div>
@@ -78,10 +85,10 @@ export default class About extends Component {
                     {/* <i className="icon-bulb" /> */}
                   </span>
                   <div className="desc">
-                    <h3>Web Development </h3>
+                    <h3>Workflow Automation</h3>
                     <p>
-                      Full stack JavaScript, React, Python, Django/Flask, Ruby,
-                      Rails, Cloud, Databases
+                      Python, Selenium, Power Automate, webhooks, REST APIs,
+                      ServiceNow, Jira, Webex, Microsoft 365
                     </p>
                   </div>
                 </div>
@@ -93,10 +100,10 @@ export default class About extends Component {
                     {/* <i className="icon-phone3" /> */}
                   </span>
                   <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
+                    <h3>Data & Reporting</h3>
                     <p>
-                      Solid understanding of fundamentals (Definate
-                      work-in-progress tho' TBQH)
+                      pandas, SQL, Excel automation, scheduled pipelines,
+                      dashboards, and alerts when data goes missing
                     </p>
                   </div>
                 </div>

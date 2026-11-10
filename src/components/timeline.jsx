@@ -23,6 +23,46 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-briefcase" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Automation Engineer, Virtual Agent Services at NYC Health + Hospitals{" "} <span>06/2025-present</span>
+                        </h2>
+                        <p>
+                          • Built a real-time NICE CXone queue alert that posts each waiting call to Webex by webhook, with failsafe branching so a Webex outage can't drop a call
+                          <br />• Built Python and Selenium bots that watch live call-center and ServiceNow Virtual Agent queues and alert Webex when limits are crossed
+                          <br />• Built data pipelines that pull ServiceNow and VCC reports daily and deliver them to network data stores for Snowflake
+                          <br />• Built SLA alerts in Python and pandas that warn staff before ServiceNow tasks come due
+                          <br />• Built a morning check that confirms every report file arrived and escalates to "action required" by email when one is missing
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInTop"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-book" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          AI engineering training at Manifold{" "} <span>2026-present</span>
+                        </h2>
+                        <p>
+                          • Production Agent Engineering; Agentic SDLC: Ship Software with AI Agent Teams; Intro to Agents; Context Engineering; Control AI Spending
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
                         <i className="icon-unlock" />
                       </div>
@@ -87,17 +127,19 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>
                           Systems Analyst at NYC Health + Hospitals{" "}
-                          <span>01/2016-present</span>
+                          <span>01/2016-06/2025</span>
                         </h2>
                         <p>
-                          • Design and build automated user verification support
-                          ticket creation app decreasing click-through by half
-                          <br />• Develop and administer departmental
-                          Knowledgebase wiki
-                          <br />• Provide helpdesk/technical support for 35k
-                          healthcare users and 4M broadband subscribers
-                          <br />• Forecasted and reported call volume metrics
-                          for staffing
+                          • Built an automated user verification and support
+                          ticket app that cut click-through in half
+                          <br />• Built a Power Automate Desktop flow that
+                          produced the daily abandoned-call report
+                          <br />• Automated Excel reports that ran several times
+                          a day: calculations, merging, renaming and exporting
+                          <br />• Developed and administered the departmental
+                          knowledge base wiki
+                          <br />• Provided technical support for 45,000+
+                          employees
                         </p>
                         <p className="icon">
                           <span>
@@ -124,7 +166,7 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>
                           Co-founder at iGotITtoo.org{" "}
-                          <span>06/2009-present</span>
+                          <span>ongoing</span>
                         </h2>
                         <p>
                           •{" "}
@@ -136,13 +178,7 @@ export default class Timeline extends Component {
                             Secured $250k+ Google grant(s)
                           </a>{" "}
                           to scale{" "}
-                          <a
-                            href="https://www.facebook.com/pg/igotittoo/photos/?ref=page_internal"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            TechEd services
-                          </a>{" "}
+                          TechEd services{" "}
                           for under-served communities
                           <br />• Manage technical teams of specialists and
                           volunteers that support personal, for- and non-profit
@@ -163,13 +199,6 @@ export default class Timeline extends Component {
                               rel="noopener noreferrer"
                             >
                               <i className="icon-video" />
-                            </a>{" "}
-                            <a
-                              href="https://www.facebook.com/pg/igotittoo/photos/?ref=page_internal"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <i className="icon-camera" />
                             </a>
                           </span>
                         </p>

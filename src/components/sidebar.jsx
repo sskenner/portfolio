@@ -40,7 +40,7 @@ export default class Sidebar extends Component {
                   </li>
                   <li>
                     <a href="#about" data-nav-section="about">
-                      About Moi
+                      About
                     </a>
                   </li>
                   <li>
@@ -77,29 +77,11 @@ export default class Sidebar extends Component {
                     <i className="icon-linkedin2" />
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="https://twitter.com/sskenner"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-twitter2" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/pg/igotittoo/photos/?ref=page_internal"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-facebook2" />
-                  </a>
-                </li>
               </ul>
             </nav>
             <div className="colorlib-footer">
               <a
-                href="https://drive.google.com/file/d/1pkMjCFwP7RZEyVyjru4cpPAEI_2Uzhhq/view?usp=sharing"
+                href={process.env.PUBLIC_URL + "/Santana_Kenner_Resume.pdf"}
                 target="_blank"
                 rel="noopener noreferrer"
               >

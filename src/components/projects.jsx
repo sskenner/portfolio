@@ -18,6 +18,137 @@ export default class Projects extends Component {
             <div className="row">
               <div
                 className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/invoicechecker.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://www.loom.com/share/decf4c3356a6463d9bc3a10004f79ba3" target="_blank" rel="noopener noreferrer">
+                          <strong>Invoice Checker</strong> - AI-assisted three-way match
+                        </a>
+                      </h3>
+                      <span>
+                        Reads supplier invoice PDFs with the{" "}
+                        <strong>Claude API</strong>, checks them against purchase
+                        orders and delivery tickets with rule-based code, and
+                        files each problem as a <strong>Jira</strong> ticket for
+                        the right team. Written in <strong>Python</strong>.
+                      </span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://www.loom.com/share/decf4c3356a6463d9bc3a10004f79ba3"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="icon-video" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInTop"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/noheatnyc.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://noheatnyc.com" target="_blank" rel="noopener noreferrer">
+                          <strong>No Heat NYC</strong>
+                        </a>
+                      </h3>
+                      <span>
+                        A live site rebuilt every morning from four NYC Open
+                        Data datasets and the National Weather Service, with
+                        pages for thousands of buildings, a daily health check,
+                        and alerts. Written in <strong>Python</strong> with{" "}
+                        <strong>GitHub Actions</strong>.
+                      </span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://noheatnyc.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="icon-link" />
+                          </a>
+                        </span>
+                        <span>
+                          <a
+                            href="https://github.com/sskenner/noheatnyc"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInRight"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/doimovemycar.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://doimovemycar.com" target="_blank" rel="noopener noreferrer">
+                          <strong>Do I Move My Car?</strong>
+                        </a>
+                      </h3>
+                      <span>
+                        An hourly-updated answer on whether NYC alternate side
+                        parking is in effect, with street-cleaning times for
+                        about 3,800 streets and alerts when the rules are
+                        suspended. Written in <strong>Python</strong> with the{" "}
+                        <strong>NYC 311 API</strong>.
+                      </span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://doimovemycar.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="icon-link" />
+                          </a>
+                        </span>
+                        <span>
+                          <a
+                            href="https://github.com/sskenner/doimovemycar"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div
+                className="col-md-4 animate-box"
                 data-animate-effect="fadeInTop"
               >
                 <div
@@ -137,15 +268,6 @@ export default class Projects extends Component {
                         request.
                       </span>
                       <p className="icon">
-                        <span>
-                          <a
-                            href="http://padreno.herokuapp.com/dossier/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="icon-link" />
-                          </a>
-                        </span>
                         <span>
                           <a
                             href="https://github.com/sskenner/padreno"

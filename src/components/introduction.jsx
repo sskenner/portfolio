@@ -23,6 +23,34 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
+                          <h1 style={hStyle}>
+                            AI agents
+                            <br /> + automation,
+                          </h1>
+                          <p>
+                            <a
+                              className="btn btn-primary"
+                              style={hStyle}
+                              href="https://www.loom.com/share/decf4c3356a6463d9bc3a10004f79ba3"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Watch Demo <i className="icon-video" />
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li style={{ backgroundImage: "url(images/skshowtech.jpg)" }}>
+                <div className="overlay" />
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner js-fullheight">
+                        <div className="desc">
                           {/* <h1> */}
                           <h1 style={hStyle}>
                             code
@@ -66,7 +94,7 @@ export default class Introduction extends Component {
                             <a
                               className="btn btn-primary"
                               style={hStyle}
-                              href="https://drive.google.com/open?id=1IFoH_BadCtX3iehq0XWOcaE765FBait2"
+                              href={process.env.PUBLIC_URL + "/Santana_Kenner_Resume.pdf"}
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -111,17 +139,6 @@ export default class Introduction extends Component {
                               rel="noopener noreferrer"
                             >
                               View Video <i className="icon-video" />
-                            </a>
-                          </p>
-                          <p>
-                            <a
-                              className="btn btn-primary"
-                              style={hStyle}
-                              href="https://www.facebook.com/pg/igotittoo/photos/?ref=page_internal"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              View Photos <i className="icon-camera" />
                             </a>
                           </p>
                         </div>
