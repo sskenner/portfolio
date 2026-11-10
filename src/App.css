@@ -106,8 +106,8 @@ button { font: inherit; color: inherit; }
   width: clamp(72px, 12vh, 118px);
   height: clamp(72px, 12vh, 118px);
   border-radius: 50%;
-  background-size: 135% auto;
-  background-position: 23% 33%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border: 1px solid var(--green);
   box-shadow: var(--glow), inset 0 0 0 4px var(--bg);
